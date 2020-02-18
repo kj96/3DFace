@@ -1,3 +1,11 @@
+what       : Face 3D Datasets
+type       : Face mask
+output     : .
+edit       : .
+use        : @microsoft/Deep3DFaceReconstruction
+Dependency : Basel Face Model
+
+
 ## Introduction
 
 This dataset contains [CoarseData](https://drive.google.com/open?id=0B0A9UsiwtVTHY0p4em5qUzRISW8) and [FineData](https://drive.google.com/open?id=1z7jVbQOap3oZuZkcNhq4A_viZTJbf5eo) augmented from 3131 images of [300-W](https://ibug.doc.ic.ac.uk/resources/300-W/) with the method described in the paper [3DFaceNet: Real-time Dense Face Reconstruction via Synthesizing Photo-realistic Face Images](https://arxiv.org/abs/1708.00980). CoarseData is constructed by varying poses and expressions of the original images. FineData is constructed by transferring details from other images to the original images. We augment each image 30 times for both CoarseData and FineData.
